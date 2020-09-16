@@ -14,6 +14,8 @@ You will need at least the following minimum setup:
 - [NVIDIA-Docker 2](https://github.com/NVIDIA/nvidia-docker)
 - NVIDIA Driver ver. 450.66 (However, if you are running any Tesla Graphics, you may use driver version 396, 384.111+, 410, 418.xx or 440.30)
 
+## Custom Data -
+can be found in this Google Drive [sv_data](https://drive.google.com/drive/folders/1ttCY3kMOjkf4SdljOdpSD91SaITl8BPx?usp=sharing)
 
 ### NVIDIA Docker used
 - pytorch 20.06-py3 NGC container 
@@ -66,7 +68,8 @@ and run through the notebook
 you should be able to see the prediction on a Swedish sentence as below screenshot shown
 
 ![BERT_NER_predict](<./pics/NER_predict.JPG>) 
-
+## pre-trained model 
+[download_pretrained_sv_model](https://drive.google.com/drive/folders/1iLw6PjTikcN2Z5wNnjA54iN4w_Z_hvjN?usp=sharing)
 
 ### References 
 https://huggingface.co/transformers/master/installation.html
