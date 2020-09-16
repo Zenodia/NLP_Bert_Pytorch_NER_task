@@ -1,0 +1,1 @@
+cd ./transformers/ && pip install -e .
